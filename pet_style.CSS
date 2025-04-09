@@ -1,0 +1,107 @@
+/* PawHaven CSS FILE */
+
+/* 
+  Copyright 2025 Farnaz Farhang. All rights reserved. 
+  PawHaven CSS file for styling the Paw Haven website.
+*/
+
+body { font-family:verdana, arial, sans-serif;
+       font-size: 17px;
+       line-height: 1.5;
+       margin: 0px;
+       padding: 0px;
+       background: #FAE9CA; }
+
+img {padding: 4px;
+     margin: 10px; 
+     border: 1px #335288; 
+     background-color: #FAE9CA; }   
+
+      
+* {box-sizing: border-box; }
+
+
+div#wrapper { width: 900px;         
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              background-color: #CB8C96;
+              background-position: left top;
+              background-attachment: scroll;
+              border: 2px dotted navy;  }
+              
+
+nav  {width: 200px;
+      padding-right: 5px; }   /* I want my navigation bar to always be at the centre of the screen and fixed at the top */
+
+                                                   
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;}
+
+nav li {
+  float: left;}
+
+nav li a {
+  display: block;
+  color: #CB8C96;
+  text-align: right;
+  padding: 2px 70px;
+  text-decoration: none; }
+
+nav li a:hover {
+  background-color: #111; }                                                
+                                                                                                            
+          
+nav ul {position: fixed;      /* This helps the horizontal navigation bar stay fixed at the top of the screen */
+  top: 0;
+  width: 100%;}
+
+
+.banner-img { width: 100%;
+              height: auto;                        
+            display: block;
+            margin: 0 auto; }                    /* This is going to ensure that the banner image stays in the middle of the page and fixes the gap you saw before by fixing the margins (horizontally) */
+        
+footer {text-align: center;
+        margin-top: 20px;
+        clear: both;
+         padding: 10px;
+         font-size: 75%;
+         height: 1%;
+         background-color: #111;
+         color: #CB8C96;
+         border-top: 2px dotted #464646; }   /* I wanted by copyright info and contact info to be at the centre of the page (bottom) */    
+
+footer a {
+      color: #FAE9CA;
+       text-decoration: none;}  /* so the "contact me" is a different colour font and stands out more */
+
+footer address {
+display: inline-block;
+margin: 0 auto; }   
+    
+footer a:hover { text-decoration: underline; } /* the "contact me" will underline when someone hovers over it */
+
+.centered-img { display: block;
+                margin-left: auto; 
+                margin-right: auto;
+                width: 100% ;
+                max-width: 700px ;
+                height: auto ; }                  /* this is for the petstimonials page so all three images are within the wrapper and aligned in the center */
+
+table { border: 1px solid black; }   /* table to show the pricing */
+
+thead {color:#464646;
+background-color: salmon;
+text-align: left; }
+
+tbody {font-family: Georgia, serif;
+font-size: 90%; }
+     
+        
+
